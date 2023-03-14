@@ -1,0 +1,46 @@
+[
+  {
+    "price": "85,000",
+    "east_loan_balance": "315,000",
+    "est_equity": "250,000",
+    "thumbnail": "https://material.angular.io/assets/img/examples/shiba1.jpg",
+    "images": ["https://findhousenextjs.vercel.app/assets/images/property/fp18.jpg"],
+    "description1": "Renovated Apartment",
+    "description2": "2972 Westheimer Rd. Santa Ana, Illinois 85486.",
+    "last_sale_date": "15.3.2022",
+    "coordinates": []
+  },
+  {
+    "price": "123,000",
+    "east_loan_balance": "215,000",
+    "est_equity": "140,000",
+    "thumbnail": "https://t1.ea.ltmcdn.com/es/posts/5/6/0/labrador_chocolate_25065_0_600.webp",
+    "images": ["https://findhousenextjs.vercel.app/assets/images/property/fp19.jpg"],
+    "description1": "Single Family Home, Condominium, Multi Family",
+    "description2": "231 Columbia Pl, Los Angeles, CA 90026.",
+    "last_sale_date": "18.11.2022",
+    "coordinates": []
+  },
+  {
+    "price": "141,000",
+    "east_loan_balance": "400,000",
+    "est_equity": "100,000",
+    "thumbnail": "https://ichef.bbci.co.uk/news/976/cpsprodpb/17638/production/_124800859_gettyimages-817514614.jpg.webp",
+    "images": ["https://findhousenextjs.vercel.app/assets/images/property/fp20.jpg"],
+    "description1": "Other title",
+    "description2": "600 W 9th St Apt 115, Los Angeles, CA 90015.",
+    "last_sale_date": "1.1.2023",
+    "coordinates": []
+  },
+  {
+    "price": "99,000",
+    "east_loan_balance": "289,000",
+    "est_equity": "90,000",
+    "thumbnail": "https://www.hartz.com/wp-content/uploads/2022/04/small-dog-owners-1.jpg",
+    "images": ["https://findhousenextjs.vercel.app/assets/images/property/fp21.jpg"],
+    "description1": "Luxury Family Home",
+    "description2": "6250 Hollywood Blvd Unit 6O, Los Angeles, CA 90028.",
+    "last_sale_date": "24.9.2022",
+    "coordinates": []
+  }
+]
