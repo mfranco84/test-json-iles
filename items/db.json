@@ -1,46 +1,4805 @@
 [
-  {
-    "price": "85,000",
-    "east_loan_balance": "315,000",
-    "est_equity": "250,000",
-    "thumbnail": "https://material.angular.io/assets/img/examples/shiba1.jpg",
-    "images": ["https://findhousenextjs.vercel.app/assets/images/property/fp18.jpg"],
-    "description1": "Renovated Apartment",
-    "description2": "2972 Westheimer Rd. Santa Ana, Illinois 85486.",
-    "last_sale_date": "15.3.2022",
-    "coordinates": []
-  },
-  {
-    "price": "123,000",
-    "east_loan_balance": "215,000",
-    "est_equity": "140,000",
-    "thumbnail": "https://t1.ea.ltmcdn.com/es/posts/5/6/0/labrador_chocolate_25065_0_600.webp",
-    "images": ["https://findhousenextjs.vercel.app/assets/images/property/fp19.jpg"],
-    "description1": "Single Family Home, Condominium, Multi Family",
-    "description2": "231 Columbia Pl, Los Angeles, CA 90026.",
-    "last_sale_date": "18.11.2022",
-    "coordinates": []
-  },
-  {
-    "price": "141,000",
-    "east_loan_balance": "400,000",
-    "est_equity": "100,000",
-    "thumbnail": "https://ichef.bbci.co.uk/news/976/cpsprodpb/17638/production/_124800859_gettyimages-817514614.jpg.webp",
-    "images": ["https://findhousenextjs.vercel.app/assets/images/property/fp20.jpg"],
-    "description1": "Other title",
-    "description2": "600 W 9th St Apt 115, Los Angeles, CA 90015.",
-    "last_sale_date": "1.1.2023",
-    "coordinates": []
-  },
-  {
-    "price": "99,000",
-    "east_loan_balance": "289,000",
-    "est_equity": "90,000",
-    "thumbnail": "https://www.hartz.com/wp-content/uploads/2022/04/small-dog-owners-1.jpg",
-    "images": ["https://findhousenextjs.vercel.app/assets/images/property/fp21.jpg"],
-    "description1": "Luxury Family Home",
-    "description2": "6250 Hollywood Blvd Unit 6O, Los Angeles, CA 90028.",
-    "last_sale_date": "24.9.2022",
-    "coordinates": []
-  }
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "300 W 30th St APT 10D",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.74964,
+            "situsLongitude": -73.99572,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 547,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 1205000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/bda5003305489ea15f528fd90a751ce6-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/df7e2b9a2a0030a19465fb3ee91a02e2-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/ff10ec10b7611acd729d8b415e9c0d42-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/063845c2b2d64e62b89237d3d5803ffe-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/89a96cea51e5eb2c17667f0f73dda1e2-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/ab6fa5ab76fd299e1a4d6bb4a4e36a97-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c7b1c5508966566aa2573776bf33eca2-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2f0bc636572dbb19fb53d5c954fa650f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2dc30a319e9c1bbccb3bed87a008c78d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/65460e5c6451082f067540c708643abb-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7e5183070cceb8351941f86cc221164b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e6a9c04289f365de67a83e79b124c354-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/0fea0847f28b13bf2364b3404c0f57b8-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/90117abc9666afbbe9aa0f29a8f55f4c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e03c840597a473fec8e023aff7b58080-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/dc810055c4427e2c873217f94b40124d-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "430 W 34th St APT 14L",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.753662,
+            "situsLongitude": -73.99767,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 0,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 425000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2a18a9829e0c7095896ccee991fac2cf-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/8001e17662548d127e9e46882b6ea08d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/ac190d473966971208be89986332a819-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/b15d6ae517a784a2db4ee2951c71ba98-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/41c8d4eeaed2ff4123f8c39298f22951-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7852d2de541bac971706a0e50637ca3c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e88d9cd5a95188ca68d4dec8432930da-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/1c241c971b75b9ede82f499732adfdf1-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/635e49eec97a86855da3334d3b6f57dd-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9f39e1910e3daa68d38432377b6c4afa-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c66f8e07fc1f6b16671663b2c85f03a2-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/b7048db8d8be9cabb259ac0821ceef08-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/88ad6df22c93fb171c348abb72870042-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/908cecf1b102238c632892706dd6dafa-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5dec038c7f59977874f62254fd94521b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/ce282846979830929f1ef1f73ee0ab3f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/bff2e262790240dd0bb491b9aeed22b5-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "225 W 25th St #1-L",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.746,
+            "situsLongitude": -73.9957,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 750,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 749000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e06351be6c38113fa2f5db9d3f8ee2d1-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d3eed87b13a540ac969dbc3970ebd999-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/87c2e2e6ff247d40eba7d94eaa10ea6f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3d6eefb4d5c226f3be57a964f2da6ce2-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/dddedf5808e4f7c31fdf91f4592ea7cb-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/fd6e6154975246b00afe4c459c540607-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/fa55c6adef26f2cb4b86193aef3123b1-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "357 W 29th St #B1",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.7502,
+            "situsLongitude": -73.998,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 1600,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 2195000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/b15b62e271f97a8afb620c80ccb1ab77-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/527728ac26f2018a8aada46cfc91701d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2d952393d644e51dcfc3a6a5a98aacf3-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/ebdfccab5afea1e2f3dda5961f963e34-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/61cf3842c573aa03f03e321e85b97fc7-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/ad739f15eb362e0328a6fa154021c1b0-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/6638220450ce38890218066a47e38a42-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d5398f783d235e6f16d9e7922466a3d0-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/96fd90063b9eed3c776d6a7466819fdb-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c8e8301131dcde474e620ed0a78556e3-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/07888c2df41b1996e3177956f2104738-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c905983420ccaa275cbe659d1e200e1f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f6b4362679121f2386d2719c8057b50d-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "35 Hudson Yards #5603",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.75472,
+            "situsLongitude": -74.00253,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 1892,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 4700000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f0bfafdecf7f3312518dffc7c8219e90-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/af427d14570753354dd6f5023c53be22-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/8fcfebb808a5a0e4865765007faf2038-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3f613bb0953746ad9b87556088ee26eb-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/0b6535d725e6a85a26d94c23c22c20bb-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/0bc1df1d6759cf6285fe9e5168d6021e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e2765cc10b591c825a28f445e48f7b76-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d2ab1d58a7c73fe5b74e012280723da4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c139cdcdbf47ebcde790310a4ac4b073-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/04b11f50c7e264daf0cde258969b92eb-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/086871761c3a3380277fc05612368c5d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/68c9a50048bb432a9c78c71f5382e516-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/6130bedc73e32d7710465b3bc9742285-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/731a54ddc90a3b5b3744949df75408a8-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/83ee46ed1319424c5951fd75d2089f23-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3a138a907314833e51e67c1dd2beff56-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/42ebaef23aeeabe2ae68b835d59ccb1d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a572d8f9dd54c46605ce7221ee5bbc6f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/557c001e16a0411ba72e34bc2e80f086-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/0a436e681af6b98f5743120bf9ff44a9-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/565cce36adc7ac092d5eab7d7fa9985c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/83e6c5cb3f0660d20fbc2934c38762b5-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/96ae28c48f319cb83ef6472b5b728ba4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3441829e4490e2ce00454a43a5ffdda0-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a83063e800289038b817feb25eebb0fc-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/b8a9236790b536b3f0de7e9037fa4146-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a23313104fdbb484e68300182a30c5e8-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7f78ad256d1498e53a34c29dd42a60df-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c8f20dac42104a91f65a88da30e9b293-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f7a54173deeb0e00e2a63837a33de98c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5a5fb414b2e1e6b2653525b6086e37be-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f83bf944ec1b3db2a3668467568df291-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/74bedb74baf424f881ddfcf269c7fe9a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/420ed29ede2b010d095f61388b9ca398-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/bd5b74e55e7d513537b6818dc65108f8-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "35 Hudson Yards #8301",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.75472,
+            "situsLongitude": -74.00253,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 4621,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 15995000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f6f1c49223e77ee0101ec4a8779834ee-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5a2c734a7490b165f9fbb1b73b781f78-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f5068dd1edfab5265d96d348052f1095-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d29ca798fbaedd29e624e238a9477492-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/1b231d8cc8342b096699f9bd7a7eae9c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5f3fd1e1e7e6487e6e489d83529618ae-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/cd898bb60762f55e9ba2f1e9a476f51c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d1e9457e851ac71e52e9a7a53428338e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/17f44faf41d60ec716c92d827094231b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/61110b2216857349258cb5b3ef78be62-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/0b9471d7cc0c20ec92865ff6c73a4241-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5e3feec35a42419e6d7d24282c4c1e07-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3f446a786786958ab4ac2eb12f31f110-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/96aadfe0982eec8c49af14eb41c9805b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a727daa53de6c49728f27b6a6a0f7c24-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9d97394cb7c5d25ceaa494e7c12e3608-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f8ee52d85d869e70c67bf1a06b868c42-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/30c737d48f5e71ff12319b807e3f2eda-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/616f8caecacfe0ba3ccc6c811a954b53-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/211873e38397046c9e4efeb8211acc9a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/56cdc150b63ee12db4ab4e3bae1011ea-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/01c096fecac5676cd605e88cbe099eea-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/abdeb7e4203e0e24b32db6fe1be7fe52-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e03f152c88688e883ffe0b0de8cbb223-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c38748d9f387a67823f81530addc8c0c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7fe468fd26017622d126a85fba99704e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/82f12309e8ad4bf3c663816c619798a4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d7ba1006ae8aeb3af63a4f645a03e617-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/aa3a6647f815abb711e737edbc769fc4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/396917e56c1c46651977b34c10dcf53b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7d305d0f4143b8a838b595344451de65-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/8aa9020c79a82b171a0472c37204a0e5-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "35 Hudson Yards #6704",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.75472,
+            "situsLongitude": -74.00253,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 3099,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 8795000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/dfff8ba48b64badea0eddf0a96a03ffb-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/da5c018852011b45b6fbdf6f9e395de6-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f5c871662bc81a857eb52a47bb7f10b9-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/37a195c093fb0e2dd516238b867ee97d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/6221a400bdaca3bda532b666c04fb981-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/0e28aa065fa7fcaf9e6f852ef7505a1a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d7fad60305795154dfd25062695ba628-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/88d66a8e773f491f132ee25e7c008e32-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/819c981d8b076aa84582757642b7bdc1-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/18008c90c0d07b30fbb07ea404cf3904-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c8a62e11751e0694207cf14ecb50bfe8-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5e3feec35a42419e6d7d24282c4c1e07-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3f446a786786958ab4ac2eb12f31f110-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/96aadfe0982eec8c49af14eb41c9805b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a727daa53de6c49728f27b6a6a0f7c24-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9d97394cb7c5d25ceaa494e7c12e3608-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f8ee52d85d869e70c67bf1a06b868c42-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/30c737d48f5e71ff12319b807e3f2eda-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/616f8caecacfe0ba3ccc6c811a954b53-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/211873e38397046c9e4efeb8211acc9a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/56cdc150b63ee12db4ab4e3bae1011ea-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/01c096fecac5676cd605e88cbe099eea-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/abdeb7e4203e0e24b32db6fe1be7fe52-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e03f152c88688e883ffe0b0de8cbb223-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c38748d9f387a67823f81530addc8c0c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7fe468fd26017622d126a85fba99704e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/82f12309e8ad4bf3c663816c619798a4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d7ba1006ae8aeb3af63a4f645a03e617-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/aa3a6647f815abb711e737edbc769fc4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/396917e56c1c46651977b34c10dcf53b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/90ce43c66a88c358a2faf8dd8b8f41b1-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7d305d0f4143b8a838b595344451de65-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c7c689d5b637b1d542d4551f0984604a-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "35 Hudson Yards SUITE 5401",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.75472,
+            "situsLongitude": -74.00253,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 2453,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 6125000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/0b4270038e6c3ec147dea44e63483c04-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f0552d8dbf6a5f0da1d6372b3343906b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/72680e1c05aaa98ec0e424b5417829fe-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2f7aa5d7129bdd903c0d726e7bd808d2-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2408d077a542d4298cf9f01c143bbffc-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/91e7bd8387d6817ffedbbe1f753ecff0-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e3682424a453ebe05d0d2a83f240495f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9ca0dfb064cce341b0d32fae8678202e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/fd67776066f60c6f8eec2a1055e55f57-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/fbe534f9595d10887fe48f13d2b9f5af-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f3520d4ad1b2b9025df19b95e9832c5d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/18008c90c0d07b30fbb07ea404cf3904-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c8a62e11751e0694207cf14ecb50bfe8-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5e3feec35a42419e6d7d24282c4c1e07-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3f446a786786958ab4ac2eb12f31f110-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/96aadfe0982eec8c49af14eb41c9805b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a727daa53de6c49728f27b6a6a0f7c24-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9d97394cb7c5d25ceaa494e7c12e3608-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f8ee52d85d869e70c67bf1a06b868c42-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/30c737d48f5e71ff12319b807e3f2eda-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/616f8caecacfe0ba3ccc6c811a954b53-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/211873e38397046c9e4efeb8211acc9a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/56cdc150b63ee12db4ab4e3bae1011ea-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/01c096fecac5676cd605e88cbe099eea-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/abdeb7e4203e0e24b32db6fe1be7fe52-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e03f152c88688e883ffe0b0de8cbb223-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c38748d9f387a67823f81530addc8c0c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7fe468fd26017622d126a85fba99704e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/82f12309e8ad4bf3c663816c619798a4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d7ba1006ae8aeb3af63a4f645a03e617-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/aa3a6647f815abb711e737edbc769fc4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/396917e56c1c46651977b34c10dcf53b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/90ce43c66a88c358a2faf8dd8b8f41b1-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7d305d0f4143b8a838b595344451de65-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/98d88b7c9907964a567f72050cc5a7ae-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "35 Hudson Yards PENTHOUSE 91",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.75472,
+            "situsLongitude": -74.00253,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 9886,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 35000000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/db0463679091ff3c38cff710a02c70f8-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/874e6adcb19225718028f04d2a89eda9-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/fdab262a215e33e811ac9ca0ade8d10f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/35af7a1c9534a03276f89651e8b6a5cc-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a002bea0aed51c1e6377e54ec0407f0a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/14d32c5019ab5cbdd66953c8753f20ca-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/097a320c970ab0af68369e5b8b780904-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/0316f9e0718cb1ed7ef7f142ebb0ed75-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/ddc57862f8265f7eba4004a877b4c50c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5bf128f2962d536e2beaee4e2dc28c7c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7ac2d7e095ff39931c75bbbb5155c385-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/76c563ca75cb9a9d385c727fc5b59174-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/6499cb9a56133cc3379b4048cd351d98-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5e3feec35a42419e6d7d24282c4c1e07-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3f446a786786958ab4ac2eb12f31f110-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/96aadfe0982eec8c49af14eb41c9805b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a727daa53de6c49728f27b6a6a0f7c24-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9d97394cb7c5d25ceaa494e7c12e3608-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f8ee52d85d869e70c67bf1a06b868c42-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/30c737d48f5e71ff12319b807e3f2eda-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/616f8caecacfe0ba3ccc6c811a954b53-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/211873e38397046c9e4efeb8211acc9a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/56cdc150b63ee12db4ab4e3bae1011ea-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/01c096fecac5676cd605e88cbe099eea-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/abdeb7e4203e0e24b32db6fe1be7fe52-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e03f152c88688e883ffe0b0de8cbb223-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c38748d9f387a67823f81530addc8c0c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7fe468fd26017622d126a85fba99704e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/82f12309e8ad4bf3c663816c619798a4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d7ba1006ae8aeb3af63a4f645a03e617-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/aa3a6647f815abb711e737edbc769fc4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/396917e56c1c46651977b34c10dcf53b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7d305d0f4143b8a838b595344451de65-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/80d29db72670248d043a1ef7f110cfa8-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/6bc8d16d711be65f9031b6f5ac72e2e4-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "35 Hudson Yards #7902",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.75472,
+            "situsLongitude": -74.00253,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 2871,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 6450000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5e6d265f89431c0864ecdacc32605aac-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2d9bce7e5ddea7c1cc823fc029bd8f31-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/843cb9284fab919f13d3287fa1b05e42-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/064406c60407f5e18bf9f23e414980be-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/8925b041bebc44ce2b59c2e46456700c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/fec125e5b0cca3c2b592d475d2be586f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e7b96f08f8a1310f47e0e7dbf4510d5e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/98f91b3a7b6cfd9d5a64a833dc9cf6d4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/171aea1ba5e57e1944d1591013befd85-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a2e36b7281bbf64c562ea09565685d75-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/18008c90c0d07b30fbb07ea404cf3904-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c8a62e11751e0694207cf14ecb50bfe8-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5e3feec35a42419e6d7d24282c4c1e07-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3f446a786786958ab4ac2eb12f31f110-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/96aadfe0982eec8c49af14eb41c9805b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a727daa53de6c49728f27b6a6a0f7c24-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9d97394cb7c5d25ceaa494e7c12e3608-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f8ee52d85d869e70c67bf1a06b868c42-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/30c737d48f5e71ff12319b807e3f2eda-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/616f8caecacfe0ba3ccc6c811a954b53-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/211873e38397046c9e4efeb8211acc9a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/56cdc150b63ee12db4ab4e3bae1011ea-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/01c096fecac5676cd605e88cbe099eea-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/abdeb7e4203e0e24b32db6fe1be7fe52-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e03f152c88688e883ffe0b0de8cbb223-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c38748d9f387a67823f81530addc8c0c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7fe468fd26017622d126a85fba99704e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/82f12309e8ad4bf3c663816c619798a4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d7ba1006ae8aeb3af63a4f645a03e617-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/aa3a6647f815abb711e737edbc769fc4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/396917e56c1c46651977b34c10dcf53b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7d305d0f4143b8a838b595344451de65-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/6ca7a577d019034f39f8c900c81d8685-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "35 Hudson Yards #7703",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.75472,
+            "situsLongitude": -74.00253,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 3436,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 10495000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f2201fe5ca3c218ee3064a258eb3e464-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/dfff8ba48b64badea0eddf0a96a03ffb-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/cf09426d20d21b3a52adca8350bf2980-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/37a195c093fb0e2dd516238b867ee97d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/4d9f7951c0d40cd02e88e8d57626bb6e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a34e3bc69e816965b09744987690cc98-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c3252b2adf469af5911ada4772005b22-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e05a3c79769b5ee716939f03d801a8cc-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c9d2ea838824aa418050abcf0cd44e15-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/171aea1ba5e57e1944d1591013befd85-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a2e36b7281bbf64c562ea09565685d75-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/055fe2c44af76945e8f2d5a296cb160c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/18008c90c0d07b30fbb07ea404cf3904-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c8a62e11751e0694207cf14ecb50bfe8-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5e3feec35a42419e6d7d24282c4c1e07-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3f446a786786958ab4ac2eb12f31f110-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/96aadfe0982eec8c49af14eb41c9805b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a727daa53de6c49728f27b6a6a0f7c24-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9d97394cb7c5d25ceaa494e7c12e3608-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f8ee52d85d869e70c67bf1a06b868c42-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/30c737d48f5e71ff12319b807e3f2eda-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/616f8caecacfe0ba3ccc6c811a954b53-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d12f25389a01220cfe69cbd116fa7a5a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f8da9be452e66d9c88371639ca60111b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5d734138af0b56607d016f94f4a8ce6f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/43abc1e1e1324bdce1c914d41e93680d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e03f152c88688e883ffe0b0de8cbb223-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c38748d9f387a67823f81530addc8c0c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7fe468fd26017622d126a85fba99704e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/82f12309e8ad4bf3c663816c619798a4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d7ba1006ae8aeb3af63a4f645a03e617-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/aa3a6647f815abb711e737edbc769fc4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/396917e56c1c46651977b34c10dcf53b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7d305d0f4143b8a838b595344451de65-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/87de112ac09769b0ab03ce3f41d10e9c-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "35 Hudson Yards #7601",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.75472,
+            "situsLongitude": -74.00253,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 3848,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 12995000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5dab00fd964669d1378978a2f89fd55c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/0fecb67f56460dae02f8e35ca13a2b76-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/da5a20af3e353233b6279e84af51c259-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/af154d1ad22c18b90913b4c23f4acf98-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/676da43551868b1e4e359f25ae349a8a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/de7199c4db070ccae73212fdf3f2e77f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/ca64b47bc65f0febde6c0eb630874c86-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/17f44faf41d60ec716c92d827094231b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/12261dacf4f7174a0f12a9180085544a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e03f0d30bc9e6c0fd408ab4f58b304fe-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f7d1dd2c57dd1be56d654cbb8bf62a98-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e03f860ab14ea5aa52fb9cdfd3469609-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2a69ecc217b37d9e4d2086441d606208-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/18008c90c0d07b30fbb07ea404cf3904-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c8a62e11751e0694207cf14ecb50bfe8-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5e3feec35a42419e6d7d24282c4c1e07-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3f446a786786958ab4ac2eb12f31f110-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/96aadfe0982eec8c49af14eb41c9805b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a727daa53de6c49728f27b6a6a0f7c24-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9d97394cb7c5d25ceaa494e7c12e3608-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f8ee52d85d869e70c67bf1a06b868c42-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/30c737d48f5e71ff12319b807e3f2eda-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/616f8caecacfe0ba3ccc6c811a954b53-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d12f25389a01220cfe69cbd116fa7a5a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f8da9be452e66d9c88371639ca60111b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5d734138af0b56607d016f94f4a8ce6f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/43abc1e1e1324bdce1c914d41e93680d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e03f152c88688e883ffe0b0de8cbb223-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c38748d9f387a67823f81530addc8c0c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7fe468fd26017622d126a85fba99704e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/82f12309e8ad4bf3c663816c619798a4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d7ba1006ae8aeb3af63a4f645a03e617-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/aa3a6647f815abb711e737edbc769fc4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/396917e56c1c46651977b34c10dcf53b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7d305d0f4143b8a838b595344451de65-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d4c0008807e84f73785953c00bb2781d-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "35 Hudson Yards #7003",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.75472,
+            "situsLongitude": -74.00253,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 2724,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 6395000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5e6d265f89431c0864ecdacc32605aac-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2d9bce7e5ddea7c1cc823fc029bd8f31-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/843cb9284fab919f13d3287fa1b05e42-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/064406c60407f5e18bf9f23e414980be-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/8925b041bebc44ce2b59c2e46456700c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/fec125e5b0cca3c2b592d475d2be586f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e7b96f08f8a1310f47e0e7dbf4510d5e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/98f91b3a7b6cfd9d5a64a833dc9cf6d4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/171aea1ba5e57e1944d1591013befd85-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a2e36b7281bbf64c562ea09565685d75-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/18008c90c0d07b30fbb07ea404cf3904-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c8a62e11751e0694207cf14ecb50bfe8-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5e3feec35a42419e6d7d24282c4c1e07-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3f446a786786958ab4ac2eb12f31f110-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/96aadfe0982eec8c49af14eb41c9805b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a727daa53de6c49728f27b6a6a0f7c24-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9d97394cb7c5d25ceaa494e7c12e3608-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f8ee52d85d869e70c67bf1a06b868c42-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/30c737d48f5e71ff12319b807e3f2eda-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/616f8caecacfe0ba3ccc6c811a954b53-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/211873e38397046c9e4efeb8211acc9a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/56cdc150b63ee12db4ab4e3bae1011ea-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/01c096fecac5676cd605e88cbe099eea-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/abdeb7e4203e0e24b32db6fe1be7fe52-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e03f152c88688e883ffe0b0de8cbb223-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c38748d9f387a67823f81530addc8c0c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7fe468fd26017622d126a85fba99704e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/82f12309e8ad4bf3c663816c619798a4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d7ba1006ae8aeb3af63a4f645a03e617-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/aa3a6647f815abb711e737edbc769fc4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/396917e56c1c46651977b34c10dcf53b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/90ce43c66a88c358a2faf8dd8b8f41b1-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7d305d0f4143b8a838b595344451de65-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/83394e7d464b2900243020f7ca436892-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "35 Hudson Yards #5904",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.75472,
+            "situsLongitude": -74.00253,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 2653,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 7495000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/534ec9182d2c4ed3cf5be52edfa0a408-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/05b9e55f861f8a3b791b7f0c7aa60968-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/82b014185ffd14c2c70932c9b7904732-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/54d4226acddecedd35bbdeba9762a7c6-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f030191ddea3c7ad8f53e786e01f3af0-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/0887f54f9e0d45f120b97a394df6eaf2-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3f37ef0bbf0c49b7fc08c2f1e2dbea02-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/402367eda5c9edda36b5358f61bbdedb-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/aca0862524bfc9100cc642fd0cf35307-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/94d8b192c9bd05c83cc2ad09d6be114e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2a69ecc217b37d9e4d2086441d606208-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/18008c90c0d07b30fbb07ea404cf3904-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c8a62e11751e0694207cf14ecb50bfe8-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5e3feec35a42419e6d7d24282c4c1e07-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3f446a786786958ab4ac2eb12f31f110-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/96aadfe0982eec8c49af14eb41c9805b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a727daa53de6c49728f27b6a6a0f7c24-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9d97394cb7c5d25ceaa494e7c12e3608-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f8ee52d85d869e70c67bf1a06b868c42-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/30c737d48f5e71ff12319b807e3f2eda-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/616f8caecacfe0ba3ccc6c811a954b53-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d12f25389a01220cfe69cbd116fa7a5a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f8da9be452e66d9c88371639ca60111b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5d734138af0b56607d016f94f4a8ce6f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/43abc1e1e1324bdce1c914d41e93680d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e03f152c88688e883ffe0b0de8cbb223-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c38748d9f387a67823f81530addc8c0c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7fe468fd26017622d126a85fba99704e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/82f12309e8ad4bf3c663816c619798a4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d7ba1006ae8aeb3af63a4f645a03e617-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/aa3a6647f815abb711e737edbc769fc4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/396917e56c1c46651977b34c10dcf53b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7d305d0f4143b8a838b595344451de65-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/ea2bf70b58ace4e376b9623a16a59f3d-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "35 Hudson Yards #8702",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.75472,
+            "situsLongitude": -74.00253,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 2656,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 8895000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/daf70c506bcfe7e8d2a69d3c8fd82d3e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/37a195c093fb0e2dd516238b867ee97d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/30780d412f7a521602f9ee2ad32540d0-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f8aaf1373171d09e006d9b3f4cd1ab21-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/74ea969eefefaa2eedb7dcddbdc56cac-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/dcf365f3ae3d702c55da21da7dce4294-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/669d6e7a6ad6a81dc07708b7d04746fe-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/0d7c6f6afee4a3955ce1f1454a398b5d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3c92612af1862e18b83e48d9b5a21b62-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/cdd281de1ab544beed64c382300a0e73-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/64d94cdcb1dc249a0b335b0eb45352c6-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/125530673d2770f32a120421639db9c9-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/43c3f787b861e1da64e69e15235a8100-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a86c99ea57525fd9e6b5d1a7243344fd-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/52df64357f0c1a2bf911dc048aa5ac8b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5e3feec35a42419e6d7d24282c4c1e07-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3f446a786786958ab4ac2eb12f31f110-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/96aadfe0982eec8c49af14eb41c9805b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a727daa53de6c49728f27b6a6a0f7c24-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9d97394cb7c5d25ceaa494e7c12e3608-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f8ee52d85d869e70c67bf1a06b868c42-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/30c737d48f5e71ff12319b807e3f2eda-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/616f8caecacfe0ba3ccc6c811a954b53-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/211873e38397046c9e4efeb8211acc9a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/56cdc150b63ee12db4ab4e3bae1011ea-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/01c096fecac5676cd605e88cbe099eea-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/abdeb7e4203e0e24b32db6fe1be7fe52-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e03f152c88688e883ffe0b0de8cbb223-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c38748d9f387a67823f81530addc8c0c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7fe468fd26017622d126a85fba99704e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/82f12309e8ad4bf3c663816c619798a4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d7ba1006ae8aeb3af63a4f645a03e617-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/aa3a6647f815abb711e737edbc769fc4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/396917e56c1c46651977b34c10dcf53b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7d305d0f4143b8a838b595344451de65-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/1d706c57f27766c306e1e0dab7c6af8e-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "515 W 29th St APT 2N",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.752003,
+            "situsLongitude": -74.00217,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 2151,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 3700000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/6d71e801d1de7deef907f11e1ad140c9-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2481480f882a860b04fc1bb6b6412f20-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/0d46d7361814a40bcca3b22687814298-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/04fe0d26621e11703cd4a3e131f39246-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/717900df9f1eea3b0fa042f2cf315364-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/80961c8bf5cffece3061e0e331a08693-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a25587e87572911eea4bede9638c930e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/1379a4e86c7ef67ee360cd1f7204e365-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3914721493bba86ff4fe536f9a0e00ae-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/84c77c18a9add8e483e10da138703cba-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/cc24465a1dbf7b5250d53770ab08d820-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/4607211abc3175fedf4ff007aac0e0f1-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "515 W 29th St APT 7N",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.752003,
+            "situsLongitude": -74.00217,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 2326,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 5790000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/31bea372f3ab4555f85dd4102fc6e4d6-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e0a7c9a56350a3dd87c5cc6a723629e4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e65f6d0ce9b073b757346062b0e7a028-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/fc0c9510484e1fab12f630fcc018ba0a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c6f17b02b683e22028379a86e54e9397-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9d47ad05df7c0e5ec72c263255af987f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/39df77040530fdc2465c01f6cd0e1e45-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c48c37e5f9274a251b71c8bb0ed566ff-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/864a6c0e749f63f0f92f49fd1727fe87-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c9fdadf6a3361820ddf5e02fd82181d0-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c3427b8e1f6a53332e9a5d62fe2e61a5-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/02533d1dc330bbfb6b1682e706068e24-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/8668334d0865c5a4dc3f5ee25b9b9831-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/1379a4e86c7ef67ee360cd1f7204e365-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e54cff2fe0abd9e4dbccf1675af86fa5-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5c50e43ebbe9d9d390265344a43a6821-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/594a4703d2db605910c859e87c8921f5-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/0fab0706dd5e77764bc4f7e2f1f6a9f7-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/38ec93c9f84b807b10d693c9a61c0130-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/b9d30aab0c6aafa1ba4804f981da0d61-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "35 Hudson Yards #7302",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.75472,
+            "situsLongitude": -74.00253,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 4148,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 12995000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/0ebe09ebe6b05a84487eb4940851c29f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/95961e9e6195ee56af93f2a57360befa-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a6d38aa9f44d3416c230a6dbecfd40dc-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/8ba990587f5e4e478b7fa5d5168d91cd-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3aedcb3c91329bb233cc877c905ddaed-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5697a3e0ae91cab795723ab39a339f34-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d5d7f8a904a4aa05e65602c731a6dfec-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/ac63f49526b09eaaa172dbe1678697b6-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2f48267e4058cbbb3632444cf9b0cb35-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/ffd7c4ad9159e5b569d2a1e65403990b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/91345c1f10e3fa32b4bb384d2fe18284-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/eaea23490f8e503a192a8d117ed1d5f2-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a3691a6ee5f530e6f4662f8c4a61f2e0-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/29b66670ce4059cbf2acfa2d44767a3d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e493ea9edc9ef0179acff8592a4fbd40-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3f446a786786958ab4ac2eb12f31f110-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5e3feec35a42419e6d7d24282c4c1e07-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/96aadfe0982eec8c49af14eb41c9805b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a727daa53de6c49728f27b6a6a0f7c24-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9d97394cb7c5d25ceaa494e7c12e3608-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f8ee52d85d869e70c67bf1a06b868c42-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/30c737d48f5e71ff12319b807e3f2eda-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/616f8caecacfe0ba3ccc6c811a954b53-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/211873e38397046c9e4efeb8211acc9a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/56cdc150b63ee12db4ab4e3bae1011ea-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/01c096fecac5676cd605e88cbe099eea-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/abdeb7e4203e0e24b32db6fe1be7fe52-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e03f152c88688e883ffe0b0de8cbb223-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c38748d9f387a67823f81530addc8c0c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7fe468fd26017622d126a85fba99704e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/82f12309e8ad4bf3c663816c619798a4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/b65f45118c8b781c654b004e26af7971-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d7ba1006ae8aeb3af63a4f645a03e617-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/aa3a6647f815abb711e737edbc769fc4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/396917e56c1c46651977b34c10dcf53b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7d305d0f4143b8a838b595344451de65-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/df0480276567a64967abf2316e93d2ed-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "233 W 26th St APT 5W",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.74687,
+            "situsLongitude": -73.99574,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 2000,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 2675000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e888cd6c7ff6cdcc6bea12a0368c8b5a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e82c3ef339c23687058bfae40f72f4c8-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9609c66c78d43f4e60264584af183c1d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/ea43a9dca1c459bbd488d896e35f59ed-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/94cdc3be3a8473dc11b89fb844b382ad-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/fac8a9ae89a78a6a76670c3c75464f65-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/6b24890cb1fee7ef34c790b225793bec-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/54ec34cb8741fdd5041105b6a82486c5-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2b402913e3e94e77f68101794af2e945-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c4bd1c902226edc8a3d1259c585ea24a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/4d5093bf40b14ea5c16c9fd1189d00ca-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d67b7351e4cbe33727f37291054d91e3-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3e28ad78f7923053f06f067115edb2ff-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "249 W 29th St APT 2E",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.74857,
+            "situsLongitude": -73.994225,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 2391,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 2450000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/178fb179b6f92eabc6c1e6607ef2960f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/4fd5e7ead9c478bcf32959ec2bc0594b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/74545dac155f0617ab23dee30ff13028-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/670473f124a0560d6959a5d71d74e2d5-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d716e1d06368399c93a027e4b31c8197-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/90609e3eb6a42fcd3e0655b44a401d90-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/79d27435b63724077d4b66e614f76509-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/88110da5a601d034c45d86a59e2d0bd5-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/24e293311c9e759e130fc47aef4232ff-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/364995dfafbc246040c5dff6dc09eb8d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a33a05690a135e803275b4bbdd92fd1c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/099813498072df0ad7eb5a0061bbc15e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c581e841b20d47d2ad7cd7d8c0573742-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "50 W 30th St #15B",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.746994,
+            "situsLongitude": -73.98938,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 1310,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 2600000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/fbd17d10e1bbceedc9f4d699db358f83-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a452d86ad7bc864153404e8ab62e906a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/6b94892be4f8bb7bc9a80a5bae4ce6b0-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/1ecba06764b8ca9f1bed1aa19945a523-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/8accfe3b976335d7a1620dff9fede9a4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/fbc8a3218969aa5b7c5730bbddcf8a5a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/489f5722229809f844db0029f10536e0-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/fc7048801a6104353460861d16175d5b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/db6f13d32f562c0715ba8bc71fd2e9a9-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f65729ec79436e210412b170e1760fb5-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "225 W 25th St APT 6G",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.74603,
+            "situsLongitude": -73.99565,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 800,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 799000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/1097222e8c09f2512c37e3dd9295372e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/858712c805f95d3eba744624e8f5603b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/68e913ad75dac0fcc1b33ec99dc13b15-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/b920e60bf8bb8790efde26b7ea6b20ab-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/57fd677b1cc6754c42dcb51058aa9ec6-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/33170b4b19282ce55dacf0bfa6b8f8e6-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/40641fcdecd26ad16283f2efa9031a7f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/53be0f3536b11af27e30b9269945654c-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "420 W 25th St APT 4C",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.74809,
+            "situsLongitude": -74.00172,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 1199,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 1625000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/91ba3605e7d788b99b9cf3caffcc49b7-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/30843d096cc7a69aab8c5a66379c0325-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/65fc05c42ce16b84689ab366ecb2626d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/1b8df91a6df9c2be1f3694effeff73b8-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/ac4ff56e36b563bf45307fea873f4b9e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/eb83a5b0b5a29885e86e7b547c1f0db0-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c559655b3ede41d9a18e2073dd1b17f8-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/70d2ecd75f9db48fc7aed0dd2ab8e07f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/4a2fca3960b8fe2d93bed1825fce4fd1-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c1f13fb867dd293775a33f9d02844a48-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/1558d9efabc6f7259053e0b1c7d9dc14-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "522 W 29th St UNIT 2-A",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.751858,
+            "situsLongitude": -74.00299,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 2736,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 4850000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2d8f6ef899ceeeaaa50972a6bb78a3b2-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f6dd1ad7f05b8caba67f5366ad999047-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9cc561caf2dc64181a4fa609b8db777d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e0177f528e2c91bb4609be8281232226-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/6b11285b4c4a06d6f0dcb891068fb076-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/16c6054e9ba3f0610f368a07de017277-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5588c5afabfee21d03dd2e5bd9f9c28f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a2f2dd73af9a263146dea5738e18d6b2-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3b56272c5a045aa410de50a029a6a4d8-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/96cd87378d233228be32de14acc2fe3c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5147c67b5f4e69801278d784ec891252-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/65a9aa9d8142975d70b2c2c1dc9101f3-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e3c2121d3a3b48cb02b04358af8cc663-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/03c67ad578bd381a40032693bf61b2ee-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/72c442b2db3989c91224887ad6bbdb82-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/0bdda97320ce98c823ee12622313d69d-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "359 W 29th St APT 3",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.750248,
+            "situsLongitude": -73.99801,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 0,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 950000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/59e5ab21ea1c15c11f5813ba5317e73a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2260cd9134c1f571e6a9af714aa7df26-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9c7bd65e904544c936fa511ad6078793-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/95de22c498e752dee26fbbdd80a92975-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/592665b9164b66229008748f5029d13a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/623a51f54e03d6d6f56801de7e07fa23-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/080b99bb974232aaf265ff1a299ea2af-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/ce2051c6b294f50bdcee2fb874e44800-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/66b0044269eca539090dfed15ba2d4b0-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5c82e8c0ba7549385752b77000b47074-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "25 W 28th St PENTHOUSE 43D",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.745544,
+            "situsLongitude": -73.99004,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 1848,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 8500000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/cd8fdd1021fc4a9123ad47277b7f5a45-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2f9ea06e738a6af193578d59fe90df32-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/25bc31243e660a559199da88d13087f8-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9f6818120adadd013f1a30d3cee931ee-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e02f22c243472933a517e117f8ccbc45-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/1b283a91d6f34b0b299d231a8ede8636-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5359020bb2da7cd5916424fdf497bf5a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2beb1eea62e42dbfb69f49eab3fc3fbf-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/1c28d8633e1a5d5f85e2a2f5d23d91c0-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/391b2a2cd47f1395b45cddd39fa00f16-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/daa43aa0deaeec1bdd40e8ffcda7402b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5d0ec3f193661cd60cf88f68c295784d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/53a1a81d547bf80a9ca5ae520a29479f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5a9bafb5e5019385611f5670c7ebe357-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/dc1b429507bbe182199b1408a3bd81b5-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "254 W 25th St APT 6C",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.74595,
+            "situsLongitude": -73.996666,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 0,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 1795000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/eefb8e1091ee86d753bd3caf0adaf11f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5e44c97415db716830fc18f8e60ff5aa-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a78084ca368aa811d2066e04d591f96f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/48bd92f15e4fa6acf9588e45bd502fd6-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d0db79a8c188adb79843d676d0efae78-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/395803c0fa62bbdbc78f621718fd1c69-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/66d15ea11bbf43462b0244abfaa44e15-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/50a5d3e2526a7c94620fb8b4f6acc03f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d944d7017b9316f198b501e9ae538596-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/bfc3230f308538a2e0dec7d30a8abd6b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9d2aefabdc85d1867b1a8ba6749e7d35-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d82a2e204659a9fd32e0138a96b2f017-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3be55c594d74f0971aa35539ce98e2cb-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/b6d9f9440a0ad835fc0d17a9620e58a5-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "420 W 25th St APT 8E",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.74809,
+            "situsLongitude": -74.00172,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 1409,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 2000000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2ab0050bc9bc303102bd0893146ce4ae-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/72b933c90ddd8d11ef857b04b0d7d70d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/497455ea7866baff431133c6b360179a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/043a8939c3cb3f51c3d833b1f86a4a13-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c61a5a6fb3715415b3d020a6d1610205-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/63d672a40821ac96f26e18c99440a91a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/cef2ace46da5831823a7af5be9ee21d9-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c97ee1520f16ba55dea3ee939a4896eb-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/11eff585c5132b36e89e28f5b89251b2-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/8641e00a0f60dbdf0e697727a3e990f1-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/4d110d7f95b5b62e0c3c4cb84bbcf3f1-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "357 W 29th St APT 4B",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.750134,
+            "situsLongitude": -73.998055,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 0,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 1550000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7b98121fc88d9d25a132a4a98a6f6117-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/fe482a5822ce6a926bbf603a534a7423-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/db3bf64e9383f979a5f3439bd19f5636-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5c8121b3cd4d9f0a111dc4f9827399fa-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/106bfff0380383894babe18612485a22-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3c08d55a12f6a9a0826b99c43ddb765e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/62fe7d54cbf7c75e3303ab1a4bd989cb-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e13aac75513e3731310ceb7b87e4cf37-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9926a3c0c827407ec6f1cccfd0a80ffc-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/eaf0a6b880a77ffc5634b2ea11831205-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/aa4d6f92a4e1ae6484788dd59e9528fb-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/570d7eb1e052a9cfcf39ff239cad3103-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e7207c3658041f3eb3401f1338f04f31-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/39eabb7d55f942773ff7f4d77e58713d-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "15 Hudson Yards APT 73D",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.75381,
+            "situsLongitude": -74.00255,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 1764,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 5195000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f92da6fb58b71da4cd8929d3aa9ccdeb-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a5af040d455609c8db1701976becb93e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/bb13268829e51f62ded78941b0ec1d88-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/1671e178ccd0ec942f0a418c26260fd3-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/0323febe9d3cffa53a89db5c0901ba20-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/aaf6ab5ddf63e9a8a9b574013d6a8fe5-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/1950b72e9d5a4bda7465f5e61957ab7f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/efdda7f45a33cf32355058b215b9e3cb-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/d99799fe464fad9e53b2510989169181-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/17c31ba010de3dfdb2ca019f8fe1ae36-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/48a61d605d84f9d0be1636cef17ea482-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/4200b2da18ff9c939b06a8ca57cc5713-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2fcab63d124a4dfcfed4433505c71fcf-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/0caf251b7a7019278f58635f6f23dd53-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/ea9208347a2851dc74a1b138f1936ee4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/b3c367e050c9c046f19095d72af29149-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e55a158ddddbae9e1b51332dfd9f9ca4-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3b09d437abcc2df53c7afa398a81c14b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/b654d8e9b9c3becef59d2c5a1efa2111-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7202715e1f49bceb62b68471cfcb5893-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/289dd40c0b42e1f4feadb621b4a2fc5c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/798fa148998fa3bc98965cb1c164020e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9d53c2941f5c12ead71b781eaeb46c3e-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "15 Hudson Yards #63C",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.75381,
+            "situsLongitude": -74.00255,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 1907,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 4750000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/abeb0b38de5af1f1c0a26f3d4dbe30df-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2f267af1f8504110e7d64c34f8b4c31e-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/701b18d716dd9846e51d79938ce55f21-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3e44bb62e8cfe71aa99f762323bdf284-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/98ee514a8ef6b678f19886ff04fbaf4f-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2f81ef6587d5784e9247e85d45932f64-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/4973bf8df0c9b12d21ad9a1213b1457b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/cdcec9abeee1638c713051e6df30012c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/794cce578d8759c94f548a91e5d82716-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/41badd0c8a912aaf6edd01249ae107d2-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/77db58dec6b3dd8be7d337c96cf33b41-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/9026fc1c638ebfbb370dcf9195802ea6-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5cf0451454b5add9ec6bdd9704342237-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e899ca34a8142a1bd80ad0c366eedf1d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/39b1d0f83e513a5de03808bf81a4d464-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/febe63bc817495cc4e174b2e20874b52-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/36ebdd0d99d575d4f63e4fb6baf4662a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/b2a272a60849d0724c5ad3f7ac16f427-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/0bac81fc2e5310d87e9416c64a513328-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/db7f2722d967da4b937d3d5fb24b6c41-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2526b2f92a49ec658c1c80177224475c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/8ad1e0a0931839f9a1f96ce0e4501a41-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c4cd46eb7d9a83b9ae1d210b1c5b24ad-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a32e00f403e8e3cf26de9fa5f62547cc-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/05f9ccdcab9297ea97bd2f7a502355e0-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/ddf936d22a436148cf1d4ec3e394e397-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/f9af56447e2a20982ea48c431775c38a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/62280fcc25c55c82ce10cfd9ff27b6ba-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/dce3a73dd8eca94526fd2f1489eb9fb0-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "430 W 34th St APT 16D",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.753662,
+            "situsLongitude": -73.99767,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 747,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 785000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/4ee1cb04c867e31753a1f3ae2fd42ffc-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c959bde5a6091ddecc270bf81099b184-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/3825a4eca385d2cb6f8b6699a586d101-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/bc2ae96c9b50ef7e85b8de672553c94b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/a56c618e427b0c953ff623abbf183ee3-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/29fa61ec3aa38c39e62288de511837a0-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "534 W 29th St",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.751972,
+            "situsLongitude": -74.003265,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 2773,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 4700000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/01b28824890f370a39bb11fe6a07cae7-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/03183f9de9b48d64a15051e81b5fca28-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/733dbcd8f0e0f6174e2f58ca799ed182-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/afdf031d46160226e47cd1cf084e3e17-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/6c6fb4b3c9189328b21e0e8aa28cbde5-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/626914f3f79188dbb408c6bbd6bb3099-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/8c2f8ac7e9798f3b3ce9bd16af43c601-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/31bf539a0dbf08e7a968a58e27198a88-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "300 W 30th St APT 13C",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.74964,
+            "situsLongitude": -73.99572,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 589,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 1295000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/561bef68f0f3a1e4aa91a5f7f6ee1f4a-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/90824d8f191dc31c513ffacd7b7e7752-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c7b1c5508966566aa2573776bf33eca2-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2dc30a319e9c1bbccb3bed87a008c78d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/65460e5c6451082f067540c708643abb-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7e5183070cceb8351941f86cc221164b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e6a9c04289f365de67a83e79b124c354-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/0fea0847f28b13bf2364b3404c0f57b8-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/90117abc9666afbbe9aa0f29a8f55f4c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e03c840597a473fec8e023aff7b58080-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/33a7af08da94d228e89dd43ae4e08b7c-p_e.jpg"
+            }
+        ]
+    },
+    {
+        "id": 0,
+        "apn": null,
+        "address": {
+            "situsFullStreetAddress": "300 W 30th St #5A",
+            "situsHouseNbr": null,
+            "situsHouseNbrSuffix": null,
+            "situsStreet": null,
+            "situsMode": null,
+            "situsUnitNbr": null,
+            "situsCity": "New York",
+            "situsState": null,
+            "situsZIP5": null,
+            "situsZIP4": null,
+            "situsLatitude": 40.74964,
+            "situsLongitude": -73.99572,
+            "situsGeoStatusCode": null
+        },
+        "propertyDetails": {
+            "propertyClassId": null,
+            "lotSizeAcres": 0,
+            "buildingArea": 512,
+            "sumBuildingSqFt": 0,
+            "sumLivingAreaSqFt": 0,
+            "sumGrossAreaSqFt": 0,
+            "sumAdjAreaSqFt": 0,
+            "yearBuilt": 0,
+            "effectiveYearBuilt": 0,
+            "bedrooms": 0,
+            "totalRooms": 0,
+            "bathTotalCalc": 2,
+            "bathFull": 0,
+            "bathsPartialNbr": 0,
+            "bathFixturesNbr": 0,
+            "amenities": 0,
+            "airConditioningCode": 0,
+            "buildingClassCode": 0,
+            "buildingConditionCode": 0,
+            "constructionTypeCode": 0,
+            "heatCode": 0,
+            "heatingFuelTypeCode": 0,
+            "otherRooms": null,
+            "sumResidentialUnits": 0,
+            "sumBuildingsNbr": 0,
+            "sumCommercialUnits": 0,
+            "lotSizeSqFt": 0
+        },
+        "value": {
+            "assdTotalValue": 0,
+            "assdLandValue": 0,
+            "assdImprovementValue": 0,
+            "marketTotalValue": 1010000,
+            "marketValueLand": 0,
+            "marketValueImprovement": 0,
+            "taxAmt": 0,
+            "taxYear": null,
+            "taxDelinquentYear": null,
+            "marketYear": null,
+            "assdYear": null,
+            "schoolTaxDistrict1Code": null,
+            "schoolTaxDistrict2Code": null,
+            "schoolTaxDistrict3Code": null,
+            "taxRateCodeArea": null
+        },
+        "lastSale": null,
+        "liens": null,
+        "avm": null,
+        "listingInfo": null,
+        "vacancy": null,
+        "flood": null,
+        "hoa": null,
+        "preForclosure": null,
+        "images": [
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/294f7528ad8e6297fc10e4b6cc23e888-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/78f54820316b2b2514968f5729ca1183-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/6af11b42da8a6d6a7d4e7c9b2366cd9c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e5b549a3763ff3e22f1e52a750856ef1-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/6c8ac6c47fb1c086694db27c8adbb064-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/c7b1c5508966566aa2573776bf33eca2-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/2dc30a319e9c1bbccb3bed87a008c78d-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/65460e5c6451082f067540c708643abb-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/7e5183070cceb8351941f86cc221164b-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e6a9c04289f365de67a83e79b124c354-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/0fea0847f28b13bf2364b3404c0f57b8-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/90117abc9666afbbe9aa0f29a8f55f4c-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/e03c840597a473fec8e023aff7b58080-p_e.jpg"
+            },
+            {
+                "imageSource": "https://photos.zillowstatic.com/fp/5e9281e8b625c16eb22fb3def76f8755-p_e.jpg"
+            }
+        ]
+    }
 ]
